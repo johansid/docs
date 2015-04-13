@@ -1,5 +1,4 @@
 ### Blesh iBeacon SDK
-Blesh SDK documentation for mobile platforms
 
 This documentation is targeted for developers who are already in our development program. For more information and business inquiries please visit us at Blesh main page. https://www.blesh.com/#ibeacon
 
