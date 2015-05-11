@@ -13,7 +13,7 @@ Blesh iBeacon SDK is distributed as a library project for iOS and Android platfo
 
 ### Integrating Blesh SDK into your application
 
-Integration process involves importing Blesh SDK library project into your application and starting Blesh service/framework. Please refer to our platform specific guides for more detail. Also, you should be able to download required files in the releases section of this repository.
+Integration process involves importing Blesh SDK library project into your application and starting Blesh service/framework. Please refer to our platform specific guides for more detail.
 
 * [iOS](https://github.com/bleshcom/sdk/wiki/iOS-integration)
 * [Android Studio](https://github.com/bleshcom/sdk/wiki/Android-SDK-Integration-for-Android-Studio)
