@@ -17,7 +17,6 @@ Integration process involves importing Blesh SDK library project into your appli
 
 * [iOS](https://github.com/bleshcom/sdk/wiki/iOS-integration)
 * [Android Studio](https://github.com/bleshcom/sdk/wiki/Android-SDK-Integration-for-Android-Studio)
-* [Eclipse](https://github.com/bleshcom/sdk/wiki/Android-SDK-Integration-for-Eclipse)
 
 ### FAQ
 
