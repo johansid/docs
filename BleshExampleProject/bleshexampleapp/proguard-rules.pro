@@ -15,3 +15,20 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+##----Blesh----##
+-keep class com.blesh.sdk.** { *; }
+-keepattribute InnerClasses
+##----OkHttp----##
+-dontwarn rx.**
+-dontwarn okio.**
+-dontwarn com.squareup.okhttp.**
+-keep class com.squareup.okhttp.** { *; }
+-keep interface com.squareup.okhttp.** { *; }
+##----Gson----##
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class sun.misc.Unsafe { *; }
+-keep class com.google.gson.examples.android.model.** { *; }
+##----universal-image-loader----##
+-keep class com.nostra13.universalimageloader.** { *; }
