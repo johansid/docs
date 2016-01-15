@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Blesh Start Stop</string>
+    <string name="greeting">Use the toogle button to start/stop the Blesh service!</string>
+    <string name="blesh_on">Blesh service is running!</string>
+    <string name="blesh_off">Blesh service is stopped!</string>
+    <string name="toggle_blesh">Start/Stop Blesh</string>
+    <string name="stop_blesh">STOP BLESH</string>
+    <string name="start_blesh">START BLESH</string>
+</resources>
