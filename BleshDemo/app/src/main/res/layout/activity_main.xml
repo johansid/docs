@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/blesh_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/choose_template"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/full_page_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/full_page_template" />
+
+            <Button
+                android:id="@+id/campaign_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/campaign_template" />
+
+            <Button
+                android:id="@+id/push_notification_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/push_notification_template" />
+
+            <Button
+                android:id="@+id/ad_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ad_template" />
+
+            <Button
+                android:id="@+id/qa_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qa_template" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
