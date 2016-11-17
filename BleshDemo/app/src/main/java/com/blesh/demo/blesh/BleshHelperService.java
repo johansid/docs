@@ -41,7 +41,11 @@ public class BleshHelperService extends Service {
     }
 
     public void startBlesh(String apiUser, String apiKey, String integrationId) {
-        startService(new BleshIntent.Builder(apiUser, apiKey, integrationId).optionalKey("M").getIntent(this));
+          try {
+            startService(new BleshIntent.Builder(apiUser, apiKey, integrationId).integrationType("M").optionalKey("").getIntent(this));
+        } catch (IllegalArgumentException e) {
+             e.printStackTrace();
+        }
     }
 
     public void stopBlesh() {
